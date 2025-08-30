@@ -1,5 +1,3 @@
-# store/core/exceptions.py
-
 class BaseException(Exception):
     """Exceção base com mensagem e status code."""
     status_code: int = 500
